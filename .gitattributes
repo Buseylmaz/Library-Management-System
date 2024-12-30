@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
+# Windows ve Unix uyumlu satır sonu ayarları
 * text=auto
+
+# LDF dosyalarını Git tarafından izlenmeyecek şekilde işaretleme
+*.ldf -text
+
+# Binari dosyalar (ör. resimler, veri dosyaları) için satır sonu dönüşümünü kapat
+*.jpg binary
+*.png binary
+*.exe binary
+*.dll binary
+
+# UTF-8 kodlamasını zorla
+*.cs text eol=lf
+*.js text eol=lf
+*.html text eol=lf

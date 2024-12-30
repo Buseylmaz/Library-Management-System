@@ -1,0 +1,15 @@
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe.config
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.pdb
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.dll
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.xml
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Form1.resources
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Properties.Resources.resources
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.GenerateResource.cache
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
+C:\Users\bsylm\Desktop\Library-Management-System\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
