@@ -33,8 +33,8 @@ namespace LibraryManagementSystem
                 BookName = tbxNameAdd.Text,
                 AuthorName = tbxAuthorNameAdd.Text,
                 NumberPages = Convert.ToInt32(tbxNumberPagesAdd.Text),
-                PublishingHouse = tbxPublishingHouseAdd.Text,
-                BookPrice = Convert.ToInt32(tbxBookPriceAdd.Text)//bak
+                PublishingHouse = tbxPublishingHouseAdd.Text
+                
             });
 
             LoadBooks();
@@ -49,7 +49,7 @@ namespace LibraryManagementSystem
             tbxAuthorNameUpdate.Text = dgwLibrary.CurrentRow.Cells[2].Value.ToString();
             tbxNumberPagesUpdate.Text = dgwLibrary.CurrentRow.Cells[3].Value.ToString();
             tbxPublishingHouseUpdate.Text = dgwLibrary.CurrentRow.Cells[4].Value.ToString();
-            tbxBookPriceUpdate.Text = dgwLibrary.CurrentRow.Cells[5].Value.ToString();
+
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -59,9 +59,9 @@ namespace LibraryManagementSystem
                 BookId = Convert.ToInt32(dgwLibrary.CurrentRow.Cells[0].Value.ToString()),
                 BookName = tbxNameUpdate.Text,
                 AuthorName = tbxAuthorNameUpdate.Text,
-                NumberPages = Convert.ToInt32(tbxAuthorNameUpdate.Text),
+                NumberPages = Convert.ToInt32(tbxNumberPagesUpdate.Text),
                 PublishingHouse= tbxPublishingHouseUpdate.Text,
-                BookPrice=Convert.ToInt32(tbxBookPriceUpdate.Text)
+
 
             });
 

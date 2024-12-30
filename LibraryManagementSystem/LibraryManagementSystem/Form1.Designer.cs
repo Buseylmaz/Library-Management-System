@@ -54,10 +54,6 @@ namespace LibraryManagementSystem
             this.dgwLibrary = new System.Windows.Forms.DataGridView();
             this.lblSearch = new System.Windows.Forms.Label();
             this.tbxSearch = new System.Windows.Forms.TextBox();
-            this.lblBookPriceAdd = new System.Windows.Forms.Label();
-            this.tbxBookPriceAdd = new System.Windows.Forms.TextBox();
-            this.lblBookPriceUpdate = new System.Windows.Forms.Label();
-            this.tbxBookPriceUpdate = new System.Windows.Forms.TextBox();
             this.gbxUpdate.SuspendLayout();
             this.gbxAdd.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgwLibrary)).BeginInit();
@@ -68,7 +64,7 @@ namespace LibraryManagementSystem
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.lblName.Location = new System.Drawing.Point(10, 36);
+            this.lblName.Location = new System.Drawing.Point(397, 9);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(297, 24);
             this.lblName.TabIndex = 29;
@@ -79,7 +75,7 @@ namespace LibraryManagementSystem
             this.btnRemove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnRemove.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnRemove.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnRemove.Location = new System.Drawing.Point(12, 78);
+            this.btnRemove.Location = new System.Drawing.Point(14, 97);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(140, 25);
             this.btnRemove.TabIndex = 28;
@@ -90,8 +86,6 @@ namespace LibraryManagementSystem
             // gbxUpdate
             // 
             this.gbxUpdate.BackColor = System.Drawing.Color.White;
-            this.gbxUpdate.Controls.Add(this.lblBookPriceUpdate);
-            this.gbxUpdate.Controls.Add(this.tbxBookPriceUpdate);
             this.gbxUpdate.Controls.Add(this.lblPublishingHouseUpdate);
             this.gbxUpdate.Controls.Add(this.tbxPublishingHouseUpdate);
             this.gbxUpdate.Controls.Add(this.lblNameUpdate);
@@ -103,12 +97,12 @@ namespace LibraryManagementSystem
             this.gbxUpdate.Controls.Add(this.btnUpdate);
             this.gbxUpdate.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.gbxUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.gbxUpdate.Location = new System.Drawing.Point(551, 292);
+            this.gbxUpdate.Location = new System.Drawing.Point(553, 311);
             this.gbxUpdate.Name = "gbxUpdate";
-            this.gbxUpdate.Size = new System.Drawing.Size(490, 242);
+            this.gbxUpdate.Size = new System.Drawing.Size(490, 223);
             this.gbxUpdate.TabIndex = 27;
             this.gbxUpdate.TabStop = false;
-            this.gbxUpdate.Text = "Update a Note";
+            this.gbxUpdate.Text = "Update a Book";
             // 
             // lblPublishingHouseUpdate
             // 
@@ -186,7 +180,7 @@ namespace LibraryManagementSystem
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnUpdate.Location = new System.Drawing.Point(240, 213);
+            this.btnUpdate.Location = new System.Drawing.Point(238, 175);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(125, 23);
             this.btnUpdate.TabIndex = 7;
@@ -197,8 +191,6 @@ namespace LibraryManagementSystem
             // gbxAdd
             // 
             this.gbxAdd.BackColor = System.Drawing.Color.White;
-            this.gbxAdd.Controls.Add(this.lblBookPriceAdd);
-            this.gbxAdd.Controls.Add(this.tbxBookPriceAdd);
             this.gbxAdd.Controls.Add(this.lblPublishingHouseAdd);
             this.gbxAdd.Controls.Add(this.tbxPublishingHouseAdd);
             this.gbxAdd.Controls.Add(this.btnAdd);
@@ -210,12 +202,12 @@ namespace LibraryManagementSystem
             this.gbxAdd.Controls.Add(this.tbxNameAdd);
             this.gbxAdd.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.gbxAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.gbxAdd.Location = new System.Drawing.Point(12, 292);
+            this.gbxAdd.Location = new System.Drawing.Point(14, 311);
             this.gbxAdd.Name = "gbxAdd";
-            this.gbxAdd.Size = new System.Drawing.Size(533, 242);
+            this.gbxAdd.Size = new System.Drawing.Size(533, 223);
             this.gbxAdd.TabIndex = 26;
             this.gbxAdd.TabStop = false;
-            this.gbxAdd.Text = "Add a Note";
+            this.gbxAdd.Text = "Add a Book";
             // 
             // lblPublishingHouseAdd
             // 
@@ -239,7 +231,7 @@ namespace LibraryManagementSystem
             // 
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnAdd.Location = new System.Drawing.Point(202, 213);
+            this.btnAdd.Location = new System.Drawing.Point(206, 175);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(125, 23);
             this.btnAdd.TabIndex = 7;
@@ -306,66 +298,31 @@ namespace LibraryManagementSystem
             this.dgwLibrary.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgwLibrary.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgwLibrary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwLibrary.Location = new System.Drawing.Point(12, 118);
+            this.dgwLibrary.Location = new System.Drawing.Point(14, 137);
             this.dgwLibrary.Name = "dgwLibrary";
             this.dgwLibrary.Size = new System.Drawing.Size(1029, 154);
             this.dgwLibrary.TabIndex = 25;
+            this.dgwLibrary.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwLibrary_CellClick);
             // 
             // lblSearch
             // 
             this.lblSearch.AutoSize = true;
             this.lblSearch.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.lblSearch.Location = new System.Drawing.Point(761, 81);
+            this.lblSearch.Location = new System.Drawing.Point(690, 99);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(46, 15);
+            this.lblSearch.Size = new System.Drawing.Size(114, 15);
             this.lblSearch.TabIndex = 30;
-            this.lblSearch.Text = "Search";
+            this.lblSearch.Text = "Book Name Search";
             // 
             // tbxSearch
             // 
             this.tbxSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.tbxSearch.Location = new System.Drawing.Point(808, 78);
+            this.tbxSearch.Location = new System.Drawing.Point(810, 97);
             this.tbxSearch.Name = "tbxSearch";
             this.tbxSearch.Size = new System.Drawing.Size(233, 20);
             this.tbxSearch.TabIndex = 31;
             this.tbxSearch.TextChanged += new System.EventHandler(this.tbxSearch_TextChanged);
-            // 
-            // lblBookPriceAdd
-            // 
-            this.lblBookPriceAdd.AutoSize = true;
-            this.lblBookPriceAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.lblBookPriceAdd.Location = new System.Drawing.Point(36, 170);
-            this.lblBookPriceAdd.Name = "lblBookPriceAdd";
-            this.lblBookPriceAdd.Size = new System.Drawing.Size(66, 15);
-            this.lblBookPriceAdd.TabIndex = 14;
-            this.lblBookPriceAdd.Text = "Book Price";
-            // 
-            // tbxBookPriceAdd
-            // 
-            this.tbxBookPriceAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.tbxBookPriceAdd.Location = new System.Drawing.Point(191, 167);
-            this.tbxBookPriceAdd.Name = "tbxBookPriceAdd";
-            this.tbxBookPriceAdd.Size = new System.Drawing.Size(157, 21);
-            this.tbxBookPriceAdd.TabIndex = 15;
-            // 
-            // lblBookPriceUpdate
-            // 
-            this.lblBookPriceUpdate.AutoSize = true;
-            this.lblBookPriceUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.lblBookPriceUpdate.Location = new System.Drawing.Point(62, 170);
-            this.lblBookPriceUpdate.Name = "lblBookPriceUpdate";
-            this.lblBookPriceUpdate.Size = new System.Drawing.Size(66, 15);
-            this.lblBookPriceUpdate.TabIndex = 22;
-            this.lblBookPriceUpdate.Text = "Book Price";
-            // 
-            // tbxBookPriceUpdate
-            // 
-            this.tbxBookPriceUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.tbxBookPriceUpdate.Location = new System.Drawing.Point(217, 167);
-            this.tbxBookPriceUpdate.Name = "tbxBookPriceUpdate";
-            this.tbxBookPriceUpdate.Size = new System.Drawing.Size(157, 21);
-            this.tbxBookPriceUpdate.TabIndex = 23;
             // 
             // Form1
             // 
@@ -420,10 +377,6 @@ namespace LibraryManagementSystem
         private System.Windows.Forms.TextBox tbxAuthorNameUpdate;
         private System.Windows.Forms.Label lblNumberPagesUpdate;
         private System.Windows.Forms.TextBox tbxNameUpdate;
-        private System.Windows.Forms.Label lblBookPriceUpdate;
-        private System.Windows.Forms.TextBox tbxBookPriceUpdate;
-        private System.Windows.Forms.Label lblBookPriceAdd;
-        private System.Windows.Forms.TextBox tbxBookPriceAdd;
     }
 }
 
